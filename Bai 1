@@ -7,3 +7,4 @@ def nam_nhuan (year)
     puts "#{year} khong la nam nhuan"
   end 
 end
+nam_nhuan ()
