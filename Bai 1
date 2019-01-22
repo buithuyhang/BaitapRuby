@@ -1,0 +1,9 @@
+def nam_nhuan (year)
+  if year % 4 == 0 && year % 100 != 0
+    puts "#{year} la nam nhuan"
+  elsif year % 400 == 0 
+    puts "#{year} la nam nhuan" 
+  else 
+    puts "#{year} khong la nam nhuan"
+  end 
+end
